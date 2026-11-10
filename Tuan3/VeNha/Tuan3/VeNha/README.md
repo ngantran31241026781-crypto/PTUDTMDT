@@ -8,10 +8,10 @@
 | Thông tin | Nội dung |
 |---|---|
 | Họ và tên | **Trần Thúy Ngân** |
-| MSSV | `31241023037` |
-| GitHub | [tanquyvo](https://github.com/tanquyvo) |
-| Repository | [Tuan3](https://github.com/tanquyvo/Tuan3) |
-| Portfolio | [Mở website trên GitHub Pages](https://tanquyvo.github.io/Tuan3/) |
+| MSSV | `31241026781` |
+| GitHub | [thuyngantran](https://github.com/ngantran31241026781-crypto) |
+| Repository | [PTUDTMDT](https://github.com/ngantran31241026781-crypto/PTUDTMDT) |
+| Portfolio | [Mở website trên GitHub Pages](https://ngantran31241026781-crypto.github.io/PTUDTMDT/Tuan3/VeNha/) |
 
 ## Giới thiệu
 
