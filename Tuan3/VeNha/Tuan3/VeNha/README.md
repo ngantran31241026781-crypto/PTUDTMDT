@@ -7,7 +7,7 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| Họ và tên | **Võ Tấn Quý** |
+| Họ và tên | **Trần Thúy Ngân** |
 | MSSV | `31241023037` |
 | GitHub | [tanquyvo](https://github.com/tanquyvo) |
 | Repository | [Tuan3](https://github.com/tanquyvo/Tuan3) |
