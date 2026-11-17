@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trần Thúy Ngân – JavaScript Labs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Thanh điều hướng cố định trên cùng -->
+  <nav class="navbar" aria-label="Điều hướng trang">
+    <div class="nav-container">
+      <span class="nav-title">PTUD TMĐT · UEH</span>
+      <div class="nav-links">
+        <a href="#profile">Hồ sơ</a>
+        <a href="#intro">Tổng quan</a>
+        <a href="#labs">Danh mục Lab</a>
+        <a href="#learned">Kiến thức</a>
+        <a href="#reflection">Đánh giá</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Phần đầu trang (Giữ nguyên class .hero để js/main.js tạo khung avatar chuẩn) -->
+  <header class="hero">
+    <div class="hero-inner">
+      <img id="avatar" src="images/avatar.png" alt="Ảnh đại diện của Trần Thúy Ngân" width="140" height="140">
+      <div class="hero-text">
+        <span class="hero-badge">Portfolio Thực Hành JavaScript</span>
+        <h1>Trần Thúy Ngân</h1>
+        <p class="hero-sub">Sinh viên Thương mại điện tử – Đại học Kinh tế TP.HCM (UEH)</p>
+        <p id="clock"></p>
+        <div class="hero-nav">
+          <a class="btn" href="#lab08">Lab 08</a>
+          <a class="btn" href="#lab09">Lab 09</a>
+          <a class="btn" href="#lab10">Lab 10</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Bố cục 2 cột song song cho Hồ sơ & Tổng quan -->
+    <div class="top-grid">
+      <section id="profile" class="card">
+        <h2>Thông tin cá nhân</h2>
+        <dl>
+          <dt>Họ và tên</dt>
+          <dd>Trần Thúy Ngân</dd>
+
+          <dt>MSSV</dt>
+          <dd>31241026781</dd>
+
+          <dt>Lớp học phần</dt>
+          <dd>EE0001</dd>
+
+          <dt>Email UEH</dt>
+          <dd><a href="mailto:ngantran.31241026781@st.ueh.edu.vn">ngantran.31241026781@st.ueh.edu.vn</a></dd>
+
+          <dt>GitHub</dt>
+          <dd><a href="https://github.com/ngantran31241026781-crypto/PTUDTMDT" target="_blank" rel="noopener">ngantran31241026781-crypto/PTUDTMDT</a></dd>
+
+          <dt>Facebook</dt>
+          <dd><a href="https://www.facebook.com/thuy.ngan.415631" target="_blank" rel="noopener">Trần Thúy Ngân</a></dd>
+        </dl>
+      </section>
+
+      <section id="intro" class="card">
+        <h2>Tổng quan bài thực hành</h2>
+        <p>Trang lưu trữ này tổng hợp quá trình thực hành lập trình phía máy khách (Client-side) thông qua ba học phần trọng tâm: nắm vững nền tảng ngôn ngữ JavaScript (Lab 08), điều khiển cấu trúc cây DOM và xử lý sự kiện tương tác (Lab 09), và tối ưu thao tác giao diện cùng kết nối dữ liệu bất đồng bộ bằng thư viện jQuery (Lab 10).</p>
+        <p>Trong phát triển website thương mại điện tử, JavaScript giúp chuyển đổi các trang HTML tĩnh thành không gian mua sắm linh hoạt — từ kiểm tra dữ liệu biểu mẫu đặt hàng, tính toán giỏ hàng theo thời gian thực cho đến cập nhật thông tin sản phẩm mượt mà mà không cần tải lại toàn bộ trang.</p>
+      </section>
+    </div>
+
+    <!-- Danh sách bài Lab dạng lưới 3 cột ngang -->
+    <section id="labs" class="card">
+      <h2>Danh mục bài thực hành</h2>
+      <div class="lab-grid">
+        <article class="lab" id="lab08">
+          <span class="lab-tag">Module 01</span>
+          <h3>Lab 08 – Language Foundations</h3>
+          <p>Nền tảng cú pháp, biến, phạm vi hàm, xử lý chuỗi (String), thời gian (Date), mảng (Array) và đối tượng (Object).</p>
+          <a class="btn" href="Lab08/exercise.html">Mở bài Lab 08</a>
+          <details>
+            <summary>Xem danh sách tệp (9)</summary>
+            <ul>
+              <li><a href="Lab08/exercise.html">Exercise</a></li>
+              <li><a href="Lab08/lab08-walkthrough01.html">Walkthrough 01</a></li>
+              <li><a href="Lab08/lab08-walkthrough02.html">Walkthrough 02</a></li>
+              <li><a href="Lab08/lab08-walkthrough06.html">Walkthrough 06</a></li>
+              <li><a href="Lab08/lab08-walkthrough07.html">Walkthrough 07</a></li>
+              <li><a href="Lab08/lab08-walkthrough08.html">Walkthrough 08</a></li>
+              <li><a href="Lab08/lab08-walkthrough09.html">Walkthrough 09</a></li>
+              <li><a href="Lab08/lab08-walkthrough10.html">Walkthrough 10</a></li>
+              <li><a href="Lab08/lab08-walkthrough11.html">Walkthrough 11</a></li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="lab" id="lab09">
+          <span class="lab-tag">Module 02</span>
+          <h3>Lab 09 – DOM and Events</h3>
+          <p>Điều hướng cây DOM, cập nhật phần tử động, lắng nghe sự kiện tương tác và kiểm tra tính hợp lệ của biểu mẫu.</p>
+          <a class="btn" href="Lab09/lab09-walkthrough01.html">Mở bài Lab 09</a>
+          <details>
+            <summary>Xem danh sách tệp (7)</summary>
+            <ul>
+              <li><a href="Lab09/lab09-walkthrough01.html">Walkthrough 01</a></li>
+              <li><a href="Lab09/lab09-walkthrough02.html">Walkthrough 02</a></li>
+              <li><a href="Lab09/lab09-walkthrough03.html">Walkthrough 03</a></li>
+              <li><a href="Lab09/lab09-walkthrough04.html">Walkthrough 04</a></li>
+              <li><a href="Lab09/lab09-walkthrough05.html">Walkthrough 05</a></li>
+              <li><a href="Lab09/lab09-walkthrough07.html">Walkthrough 07</a></li>
+              <li><a href="Lab09/lab09-walkthrough08.html">Walkthrough 08</a></li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="lab" id="lab10">
+          <span class="lab-tag">Module 03</span>
+          <h3>Lab 10 – jQuery &amp; AJAX</h3>
+          <p>Khai thác bộ chọn jQuery, xử lý sự kiện nối chuỗi, hiệu ứng hoạt ảnh và gửi yêu cầu bất đồng bộ qua $.get() / jqXHR.</p>
+          <a class="btn" href="Lab10/lab10-walkthrough01.html">Mở bài Lab 10</a>
+          <details>
+            <summary>Xem danh sách tệp (9)</summary>
+            <ul>
+              <li><a href="Lab10/lab10-walkthrough01.html">Walkthrough 01</a></li>
+              <li><a href="Lab10/lab10-walkthrough03.html">Walkthrough 03</a></li>
+              <li><a href="Lab10/lab10-walkthrough04.html">Walkthrough 04</a></li>
+              <li><a href="Lab10/lab10-walkthrough05.html">Walkthrough 05</a></li>
+              <li><a href="Lab10/lab10-walkthrough06.html">Walkthrough 06</a></li>
+              <li><a href="Lab10/lab10-walkthrough07.html">Walkthrough 07</a></li>
+              <li><a href="Lab10/lab10-walkthrough08.html">Walkthrough 08</a></li>
+              <li><a href="Lab10/lab10-walkthrough09.html">Walkthrough 09</a></li>
+              <li><a href="Lab10/lab10-walkthrough10.html">Walkthrough 10</a></li>
+            </ul>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <!-- Kiến thức tích lũy -->
+    <section id="learned" class="card">
+      <h2>Kiến thức và kỹ năng tích lũy</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Lab 08 – Nền tảng JavaScript</h3>
+          <ul>
+            <li>Tích hợp mã kịch bản vào HTML và kiểm thử, gỡ lỗi trực tiếp bằng công cụ Browser Console.</li>
+            <li>Xây dựng cấu trúc điều khiển, vòng lặp và thiết kế hàm linh hoạt (hàm lồng nhau, hàm ẩn danh, callback).</li>
+            <li>Tổ chức và định dạng dữ liệu với chuỗi (String), thời gian (Date), mảng và đối tượng.</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Lab 09 – Thao tác DOM &amp; Sự kiện</h3>
+          <ul>
+            <li>Truy xuất chính xác phần tử trên cây DOM để cập nhật nội dung, thuộc tính và kiểu dáng giao diện.</li>
+            <li>Khởi tạo, chèn và loại bỏ phần tử HTML động trong quá trình trang đang vận hành.</li>
+            <li>Đăng ký trình lắng nghe sự kiện (click, mouseover, focus, submit) và kiểm tra dữ liệu đầu vào biểu mẫu.</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Lab 10 – Thư viện jQuery &amp; AJAX</h3>
+          <ul>
+            <li>Áp dụng hệ thống bộ chọn cơ bản và nâng cao giúp rút gọn mã nguồn thao tác giao diện.</li>
+            <li>Thiết kế hiệu ứng chuyển động mượt mà (Fade, Slide, Animate đa thuộc tính) và xem trước ảnh phóng to.</li>
+            <li>Thực hiện giao tiếp bất đồng bộ qua HTTP GET, phân tích dữ liệu JSON và kiểm soát trạng thái tải với jqXHR.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Đánh giá -->
+    <section id="reflection" class="card">
+      <h2>Đánh giá và định hướng ứng dụng</h2>
+      <p>Hoàn thiện chuỗi ba bài thực hành giúp hệ thống hóa rõ nét quy trình xây dựng tính năng tương tác trên nền tảng web. Nếu Lab 08 cung cấp tư duy xử lý logic và cấu trúc dữ liệu cốt lõi, thì Lab 09 tạo cầu nối trực tiếp với giao diện thực tế thông qua DOM và sự kiện, còn Lab 10 giúp tối ưu tốc độ phát triển và trải nghiệm mượt mà nhờ jQuery.</p>
+      <p>Trong đó, phần xử lý biểu mẫu và kiểm tra dữ liệu hợp lệ (Form Validation) mang lại nhiều giá trị thực tiễn nhất cho các hệ thống thương mại điện tử — nơi độ chính xác của thông tin khách hàng, tính năng cập nhật giỏ hàng tức thời, bộ lọc biến thể sản phẩm (màu sắc, kích cỡ) và hiệu ứng xem trước ảnh đóng vai trò quyết định đến tỷ lệ chuyển đổi đơn hàng. Thời gian tới, việc rèn luyện chuyên sâu kỹ năng gỡ lỗi và làm việc với API máy chủ sẽ tiếp tục được ưu tiên để phát triển các ứng dụng hoàn chỉnh hơn.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Trần Thúy Ngân – Học phần Phát triển ứng dụng TMĐT, UEH</p>
+  </footer>
+
+  <button id="toTop" type="button" aria-label="Lên đầu trang" hidden>↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
