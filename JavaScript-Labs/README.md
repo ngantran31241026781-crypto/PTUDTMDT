@@ -6,13 +6,13 @@ Bài thực hành JavaScript (Lab 08, Lab 09, Lab 10) của môn Phát triển �
 
 | Mục | Nội dung |
 |---|---|
-| Họ và tên | Nguyễn Phương Vy |
-| MSSV | 31241024413 |
+| Họ và tên | Trần Thúy Ngân |
+| MSSV | 31241026781 |
 | Lớp học phần | EE0001 |
 | Ngành | Thương mại điện tử |
 | Trường | Đại học Kinh tế TP. Hồ Chí Minh (UEH) |
-| Email | vynguyen.31241024413@st.ueh.edu.vn |
-| GitHub | [vynguyen31241024413-creator](https://github.com/vynguyen31241024413-creator) |
+| Email | ngantran.31241026781@st.ueh.edu.vn |
+| GitHub | [ngantran31241026781-crypto](https://github.com/ngantran31241026781-crypto/PTUDTMDT) |
 
 ## 2. Mục tiêu thực hiện
 
